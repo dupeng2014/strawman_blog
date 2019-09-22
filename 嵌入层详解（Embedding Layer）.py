@@ -83,13 +83,11 @@ for i,doc in enumerate(pad_corp):
 
 
 
-
-
 # 使用keras嵌入层实际创建嵌入
 # 现在所有文档的长度都相同（填充后）。现在我们已经准备好创建和使用嵌入。
 # 我会把这些词嵌入到8个维度的向量中。
 # specifying the input shape
-input=Input(shape=(no_docs,maxlen),dtype='float64')
+# input=Input(shape=(no_docs,maxlen),dtype='float64')
 '''
 shape of input. 
 each document has 12 element or words which is the value of our maxlen variable.
@@ -100,7 +98,6 @@ word_input=Input(shape=(maxlen,),dtype='float64')
 word_embedding=Embedding(input_dim=vocab_size,output_dim=8,input_length=maxlen)(word_input)
 word_vec=Flatten()(word_embedding) # flatten
 embed_model =Model([word_input],word_vec) # combining all into a Keras model
-
 
 
 

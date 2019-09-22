@@ -136,6 +136,8 @@ model.compile(loss='categorical_crossentropy',
               optimizer='rmsprop',
               metrics=['acc'])
 
+
+
 model.fit(x_train, y_train,
           batch_size=128,
           epochs=10,
