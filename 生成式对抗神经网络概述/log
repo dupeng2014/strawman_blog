@@ -1,0 +1,736 @@
+/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/usr/local/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/usr/local/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/usr/local/lib/python3.6/site-packages/pandas/compat/__init__.py:84: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/usr/local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/usr/local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/usr/local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/usr/local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/usr/local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/usr/local/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:From test1.py:16: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /usr/local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /usr/local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:252: _internal_retry.<locals>.wrap.<locals>.wrapped_fn (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use urllib or similar directly.
+WARNING:tensorflow:From /usr/local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING:tensorflow:From /usr/local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+WARNING:tensorflow:From /usr/local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:110: dense_to_one_hot (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.one_hot on tensors.
+WARNING:tensorflow:From /usr/local/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From test1.py:127: The name tf.app.run is deprecated. Please use tf.compat.v1.app.run instead.
+
+WARNING:tensorflow:From test1.py:78: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W1019 19:53:57.494094 140655230097152 deprecation_wrapper.py:119] From test1.py:78: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From test1.py:21: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+W1019 19:53:57.500981 140655230097152 deprecation_wrapper.py:119] From test1.py:21: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From test1.py:22: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+W1019 19:53:57.501631 140655230097152 deprecation.py:323] From test1.py:22: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:tensorflow:From /usr/local/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W1019 19:53:57.510664 140655230097152 deprecation.py:506] From /usr/local/lib/python3.6/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0c50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0c50>>: AssertionError: Bad argument number for Name: 3, expecting 4
+W1019 19:53:57.774130 140655230097152 ag_logging.py:145] Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0c50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0c50>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:From test1.py:24: dropout (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dropout instead.
+W1019 19:53:57.782789 140655230097152 deprecation.py:323] From test1.py:24: dropout (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dropout instead.
+WARNING:tensorflow:Entity <bound method Dropout.call of <tensorflow.python.layers.core.Dropout object at 0x7feca1de0c50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dropout.call of <tensorflow.python.layers.core.Dropout object at 0x7feca1de0c50>>: AssertionError: Bad argument number for Name: 3, expecting 4
+W1019 19:53:57.823404 140655230097152 ag_logging.py:145] Entity <bound method Dropout.call of <tensorflow.python.layers.core.Dropout object at 0x7feca1de0c50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dropout.call of <tensorflow.python.layers.core.Dropout object at 0x7feca1de0c50>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0c50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0c50>>: AssertionError: Bad argument number for Name: 3, expecting 4
+W1019 19:53:58.075622 140655230097152 ag_logging.py:145] Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0c50>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0c50>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0be0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0be0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+W1019 19:53:58.331822 140655230097152 ag_logging.py:145] Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0be0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0be0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0be0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0be0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+W1019 19:53:58.587406 140655230097152 ag_logging.py:145] Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0be0>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0be0>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0cf8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0cf8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+W1019 19:53:58.815887 140655230097152 ag_logging.py:145] Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0cf8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0cf8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0cf8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0cf8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+W1019 19:53:59.046462 140655230097152 ag_logging.py:145] Entity <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0cf8>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method Dense.call of <tensorflow.python.layers.core.Dense object at 0x7feca1de0cf8>>: AssertionError: Bad argument number for Name: 3, expecting 4
+WARNING:tensorflow:From /usr/local/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+W1019 19:53:59.066187 140655230097152 deprecation.py:323] From /usr/local/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From test1.py:66: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+W1019 19:53:59.116836 140655230097152 deprecation_wrapper.py:119] From test1.py:66: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+WARNING:tensorflow:From test1.py:70: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+W1019 19:53:59.124989 140655230097152 deprecation_wrapper.py:119] From test1.py:70: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From test1.py:92: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+W1019 19:53:59.905539 140655230097152 deprecation_wrapper.py:119] From test1.py:92: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From test1.py:94: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W1019 19:53:59.975750 140655230097152 deprecation_wrapper.py:119] From test1.py:94: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2019-10-19 19:54:00.003365: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-10-19 19:54:00.020620: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2494220000 Hz
+2019-10-19 19:54:00.020955: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5ce2500 executing computations on platform Host. Devices:
+2019-10-19 19:54:00.021034: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+WARNING:tensorflow:From test1.py:95: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+W1019 19:54:00.021506 140655230097152 deprecation_wrapper.py:119] From test1.py:95: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2019-10-19 19:54:00.162117: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+WARNING:tensorflow:From /usr/local/lib/python3.6/site-packages/tensorflow/python/training/saver.py:960: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+W1019 19:55:20.165400 140655230097152 deprecation.py:323] From /usr/local/lib/python3.6/site-packages/tensorflow/python/training/saver.py:960: remove_checkpoint (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to delete files with this prefix.
+Successfully downloaded train-images-idx3-ubyte.gz 9912422 bytes.
+Extracting ./MNIST_data/train-images-idx3-ubyte.gz
+Successfully downloaded train-labels-idx1-ubyte.gz 28881 bytes.
+Extracting ./MNIST_data/train-labels-idx1-ubyte.gz
+Successfully downloaded t10k-images-idx3-ubyte.gz 1648877 bytes.
+Extracting ./MNIST_data/t10k-images-idx3-ubyte.gz
+Successfully downloaded t10k-labels-idx1-ubyte.gz 4542 bytes.
+Extracting ./MNIST_data/t10k-labels-idx1-ubyte.gz
+epoch: 0 loss_D: 0.37473166  loss_real 0.018327877  loss_fake 0.35640377  loss_G 3.8383276
+./Model/mnist.model
+epoch: 1 loss_D: 0.68317467  loss_real 0.14266355  loss_fake 0.54051113  loss_G 3.5036626
+./Model/mnist.model
+epoch: 2 loss_D: 0.66778195  loss_real 0.22235498  loss_fake 0.445427  loss_G 2.006232
+./Model/mnist.model
+epoch: 3 loss_D: 0.8840616  loss_real 0.12673932  loss_fake 0.75732225  loss_G 2.6204853
+./Model/mnist.model
+epoch: 4 loss_D: 0.9956085  loss_real 0.08961372  loss_fake 0.9059948  loss_G 2.9459453
+./Model/mnist.model
+epoch: 5 loss_D: 1.5811162  loss_real 0.5883109  loss_fake 0.9928053  loss_G 2.1723413
+./Model/mnist.model
+epoch: 6 loss_D: 1.0243504  loss_real 0.39240462  loss_fake 0.6319458  loss_G 2.027331
+./Model/mnist.model
+epoch: 7 loss_D: 1.0764608  loss_real 0.29998028  loss_fake 0.77648056  loss_G 2.0942416
+./Model/mnist.model
+epoch: 8 loss_D: 1.3653991  loss_real 0.5732094  loss_fake 0.7921897  loss_G 1.2831457
+./Model/mnist.model
+epoch: 9 loss_D: 0.81845427  loss_real 0.14597522  loss_fake 0.67247903  loss_G 2.2020147
+./Model/mnist.model
+epoch: 10 loss_D: 1.0752416  loss_real 0.2086094  loss_fake 0.86663216  loss_G 2.7260811
+./Model/mnist.model
+epoch: 11 loss_D: 1.0941195  loss_real 0.18077177  loss_fake 0.91334784  loss_G 2.3534465
+./Model/mnist.model
+epoch: 12 loss_D: 1.0712304  loss_real 0.41408104  loss_fake 0.6571493  loss_G 1.8628892
+./Model/mnist.model
+epoch: 13 loss_D: 0.7843689  loss_real 0.054948088  loss_fake 0.7294208  loss_G 4.3160696
+./Model/mnist.model
+epoch: 14 loss_D: 0.9701146  loss_real 0.13286874  loss_fake 0.8372459  loss_G 2.4603791
+./Model/mnist.model
+epoch: 15 loss_D: 0.9980495  loss_real 0.2992999  loss_fake 0.6987496  loss_G 1.6028
+./Model/mnist.model
+epoch: 16 loss_D: 0.92926526  loss_real 0.2615018  loss_fake 0.6677635  loss_G 1.8473035
+./Model/mnist.model
+epoch: 17 loss_D: 1.0396444  loss_real 0.32660186  loss_fake 0.7130425  loss_G 1.654139
+./Model/mnist.model
+epoch: 18 loss_D: 0.7952818  loss_real 0.18974055  loss_fake 0.6055413  loss_G 1.9826652
+./Model/mnist.model
+epoch: 19 loss_D: 1.1659291  loss_real 0.3534116  loss_fake 0.8125175  loss_G 1.6494721
+./Model/mnist.model
+epoch: 20 loss_D: 1.2813561  loss_real 0.41974843  loss_fake 0.86160773  loss_G 1.4251195
+./Model/mnist.model
+epoch: 21 loss_D: 1.258814  loss_real 0.5055805  loss_fake 0.7532335  loss_G 1.5024612
+./Model/mnist.model
+epoch: 22 loss_D: 1.2921007  loss_real 0.6448221  loss_fake 0.64727855  loss_G 1.0302753
+./Model/mnist.model
+epoch: 23 loss_D: 1.2471546  loss_real 0.51737857  loss_fake 0.729776  loss_G 1.3114953
+./Model/mnist.model
+epoch: 24 loss_D: 0.95846856  loss_real 0.28441206  loss_fake 0.67405653  loss_G 1.7667463
+./Model/mnist.model
+epoch: 25 loss_D: 1.1054671  loss_real 0.31430608  loss_fake 0.791161  loss_G 1.685637
+./Model/mnist.model
+epoch: 26 loss_D: 0.9463162  loss_real 0.39254552  loss_fake 0.55377066  loss_G 1.465758
+./Model/mnist.model
+epoch: 27 loss_D: 0.9875335  loss_real 0.30472374  loss_fake 0.68280977  loss_G 1.5405917
+./Model/mnist.model
+epoch: 28 loss_D: 1.1621408  loss_real 0.42888272  loss_fake 0.7332581  loss_G 1.2278218
+./Model/mnist.model
+epoch: 29 loss_D: 0.847971  loss_real 0.24138016  loss_fake 0.60659087  loss_G 1.7282804
+./Model/mnist.model
+epoch: 30 loss_D: 1.1766628  loss_real 0.37850368  loss_fake 0.7981591  loss_G 1.4398451
+./Model/mnist.model
+epoch: 31 loss_D: 1.0791153  loss_real 0.3698625  loss_fake 0.7092528  loss_G 1.4395132
+./Model/mnist.model
+epoch: 32 loss_D: 1.0129061  loss_real 0.32221466  loss_fake 0.6906915  loss_G 1.7563826
+./Model/mnist.model
+epoch: 33 loss_D: 1.1504784  loss_real 0.40812975  loss_fake 0.7423487  loss_G 1.3546981
+./Model/mnist.model
+epoch: 34 loss_D: 0.99524885  loss_real 0.29769963  loss_fake 0.6975492  loss_G 1.7493453
+./Model/mnist.model
+epoch: 35 loss_D: 0.9077303  loss_real 0.3446061  loss_fake 0.5631242  loss_G 1.7124963
+./Model/mnist.model
+epoch: 36 loss_D: 1.1150107  loss_real 0.33878148  loss_fake 0.7762292  loss_G 1.4838045
+./Model/mnist.model
+epoch: 37 loss_D: 0.98093957  loss_real 0.3212433  loss_fake 0.6596963  loss_G 1.6362684
+./Model/mnist.model
+epoch: 38 loss_D: 0.9956169  loss_real 0.2586963  loss_fake 0.73692065  loss_G 1.8069768
+./Model/mnist.model
+epoch: 39 loss_D: 1.2207172  loss_real 0.41213042  loss_fake 0.8085867  loss_G 1.3947179
+./Model/mnist.model
+epoch: 40 loss_D: 1.2562854  loss_real 0.479053  loss_fake 0.77723247  loss_G 1.448647
+./Model/mnist.model
+epoch: 41 loss_D: 1.0816236  loss_real 0.36333925  loss_fake 0.71828425  loss_G 1.4617375
+./Model/mnist.model
+epoch: 42 loss_D: 1.3006581  loss_real 0.58630824  loss_fake 0.71434987  loss_G 1.0504296
+./Model/mnist.model
+epoch: 43 loss_D: 1.0713868  loss_real 0.34909648  loss_fake 0.7222903  loss_G 1.5374941
+./Model/mnist.model
+epoch: 44 loss_D: 1.3344679  loss_real 0.5884675  loss_fake 0.7460004  loss_G 1.1029167
+./Model/mnist.model
+epoch: 45 loss_D: 1.3294337  loss_real 0.76878244  loss_fake 0.5606513  loss_G 0.9201036
+./Model/mnist.model
+epoch: 46 loss_D: 0.9923761  loss_real 0.40325308  loss_fake 0.589123  loss_G 1.274076
+./Model/mnist.model
+epoch: 47 loss_D: 1.3296486  loss_real 0.55759704  loss_fake 0.7720516  loss_G 1.1041918
+./Model/mnist.model
+epoch: 48 loss_D: 1.1098821  loss_real 0.35569185  loss_fake 0.75419027  loss_G 1.411263
+./Model/mnist.model
+epoch: 49 loss_D: 1.1526444  loss_real 0.5106565  loss_fake 0.6419879  loss_G 1.2016648
+./Model/mnist.model
+epoch: 50 loss_D: 1.3513261  loss_real 0.52296424  loss_fake 0.82836187  loss_G 1.1247627
+./Model/mnist.model
+epoch: 51 loss_D: 1.0603106  loss_real 0.45895118  loss_fake 0.60135937  loss_G 1.2829297
+./Model/mnist.model
+epoch: 52 loss_D: 1.1121475  loss_real 0.526373  loss_fake 0.5857744  loss_G 1.1265771
+./Model/mnist.model
+epoch: 53 loss_D: 1.1661339  loss_real 0.51026165  loss_fake 0.6558723  loss_G 1.1311123
+./Model/mnist.model
+epoch: 54 loss_D: 1.1349692  loss_real 0.45385927  loss_fake 0.68111  loss_G 1.223748
+./Model/mnist.model
+epoch: 55 loss_D: 1.1454668  loss_real 0.5942826  loss_fake 0.5511841  loss_G 1.0082996
+./Model/mnist.model
+epoch: 56 loss_D: 1.2579285  loss_real 0.39121127  loss_fake 0.8667172  loss_G 1.3822179
+./Model/mnist.model
+epoch: 57 loss_D: 0.9123288  loss_real 0.3253426  loss_fake 0.5869862  loss_G 1.4437816
+./Model/mnist.model
+epoch: 58 loss_D: 1.0041745  loss_real 0.42154223  loss_fake 0.58263224  loss_G 1.3715702
+./Model/mnist.model
+epoch: 59 loss_D: 1.2365103  loss_real 0.38830018  loss_fake 0.84821016  loss_G 1.3177025
+./Model/mnist.model
+epoch: 60 loss_D: 1.0806005  loss_real 0.38965482  loss_fake 0.6909456  loss_G 1.249497
+./Model/mnist.model
+epoch: 61 loss_D: 1.3278832  loss_real 0.54998696  loss_fake 0.7778962  loss_G 1.0951564
+./Model/mnist.model
+epoch: 62 loss_D: 1.233377  loss_real 0.5828508  loss_fake 0.65052617  loss_G 1.0847456
+./Model/mnist.model
+epoch: 63 loss_D: 0.99225265  loss_real 0.4750703  loss_fake 0.51718235  loss_G 1.0527201
+./Model/mnist.model
+epoch: 64 loss_D: 1.0125916  loss_real 0.35549697  loss_fake 0.6570946  loss_G 1.3751512
+./Model/mnist.model
+epoch: 65 loss_D: 1.1595165  loss_real 0.5024735  loss_fake 0.657043  loss_G 1.1206412
+./Model/mnist.model
+epoch: 66 loss_D: 1.1655791  loss_real 0.424676  loss_fake 0.7409031  loss_G 1.222691
+./Model/mnist.model
+epoch: 67 loss_D: 1.0637445  loss_real 0.29922587  loss_fake 0.7645186  loss_G 1.6119831
+./Model/mnist.model
+epoch: 68 loss_D: 1.0823026  loss_real 0.3451191  loss_fake 0.7371835  loss_G 1.4289906
+./Model/mnist.model
+epoch: 69 loss_D: 1.1379867  loss_real 0.41020054  loss_fake 0.72778606  loss_G 1.2405752
+./Model/mnist.model
+epoch: 70 loss_D: 1.0537229  loss_real 0.4369651  loss_fake 0.6167577  loss_G 1.2274555
+./Model/mnist.model
+epoch: 71 loss_D: 1.0376163  loss_real 0.30772823  loss_fake 0.72988796  loss_G 1.5010704
+./Model/mnist.model
+epoch: 72 loss_D: 1.0524321  loss_real 0.4758088  loss_fake 0.5766233  loss_G 1.150043
+./Model/mnist.model
+epoch: 73 loss_D: 1.0908048  loss_real 0.35164404  loss_fake 0.7391607  loss_G 1.3993495
+./Model/mnist.model
+epoch: 74 loss_D: 1.1881844  loss_real 0.3718437  loss_fake 0.8163407  loss_G 1.4027178
+./Model/mnist.model
+epoch: 75 loss_D: 1.0621374  loss_real 0.3940758  loss_fake 0.6680615  loss_G 1.3480232
+./Model/mnist.model
+epoch: 76 loss_D: 1.1526681  loss_real 0.32491744  loss_fake 0.8277507  loss_G 1.4643824
+./Model/mnist.model
+epoch: 77 loss_D: 1.1005267  loss_real 0.43160227  loss_fake 0.6689244  loss_G 1.2347313
+./Model/mnist.model
+epoch: 78 loss_D: 1.0439401  loss_real 0.3977856  loss_fake 0.6461545  loss_G 1.3745856
+./Model/mnist.model
+epoch: 79 loss_D: 0.9213915  loss_real 0.28663632  loss_fake 0.63475513  loss_G 1.623585
+./Model/mnist.model
+epoch: 80 loss_D: 1.2519307  loss_real 0.42901427  loss_fake 0.8229165  loss_G 1.333574
+./Model/mnist.model
+epoch: 81 loss_D: 0.98484266  loss_real 0.3402834  loss_fake 0.64455926  loss_G 1.4947996
+./Model/mnist.model
+epoch: 82 loss_D: 0.9272295  loss_real 0.32457525  loss_fake 0.6026543  loss_G 1.4483947
+./Model/mnist.model
+epoch: 83 loss_D: 1.0756654  loss_real 0.2771717  loss_fake 0.7984936  loss_G 1.5679533
+./Model/mnist.model
+epoch: 84 loss_D: 1.0561032  loss_real 0.28813308  loss_fake 0.76797014  loss_G 1.6821336
+./Model/mnist.model
+epoch: 85 loss_D: 1.0464168  loss_real 0.36857468  loss_fake 0.67784214  loss_G 1.3494358
+./Model/mnist.model
+epoch: 86 loss_D: 1.2097523  loss_real 0.50156736  loss_fake 0.70818496  loss_G 1.1385181
+./Model/mnist.model
+epoch: 87 loss_D: 1.1845772  loss_real 0.3836968  loss_fake 0.8008804  loss_G 1.3252864
+./Model/mnist.model
+epoch: 88 loss_D: 1.1495197  loss_real 0.5085236  loss_fake 0.64099604  loss_G 1.2762992
+./Model/mnist.model
+epoch: 89 loss_D: 1.1998899  loss_real 0.34751886  loss_fake 0.8523711  loss_G 1.4336276
+./Model/mnist.model
+epoch: 90 loss_D: 1.1749861  loss_real 0.46504635  loss_fake 0.7099397  loss_G 1.2475748
+./Model/mnist.model
+epoch: 91 loss_D: 0.9805531  loss_real 0.38749248  loss_fake 0.5930606  loss_G 1.2704812
+./Model/mnist.model
+epoch: 92 loss_D: 0.9753347  loss_real 0.29350024  loss_fake 0.68183446  loss_G 1.5963945
+./Model/mnist.model
+epoch: 93 loss_D: 1.159173  loss_real 0.54303026  loss_fake 0.61614275  loss_G 1.1210967
+./Model/mnist.model
+epoch: 94 loss_D: 1.1685021  loss_real 0.56183404  loss_fake 0.60666806  loss_G 1.1595489
+./Model/mnist.model
+epoch: 95 loss_D: 1.0711586  loss_real 0.4610789  loss_fake 0.61007977  loss_G 1.1896231
+./Model/mnist.model
+epoch: 96 loss_D: 1.1850629  loss_real 0.41050586  loss_fake 0.77455705  loss_G 1.3647789
+./Model/mnist.model
+epoch: 97 loss_D: 0.93880564  loss_real 0.41807657  loss_fake 0.52072906  loss_G 1.1818886
+./Model/mnist.model
+epoch: 98 loss_D: 1.058474  loss_real 0.37701356  loss_fake 0.6814604  loss_G 1.3524129
+./Model/mnist.model
+epoch: 99 loss_D: 1.0292709  loss_real 0.34901598  loss_fake 0.6802549  loss_G 1.3602638
+./Model/mnist.model
+epoch: 100 loss_D: 1.2111769  loss_real 0.3736668  loss_fake 0.8375101  loss_G 1.4800447
+./Model/mnist.model
+epoch: 101 loss_D: 1.1639428  loss_real 0.40863818  loss_fake 0.7553047  loss_G 1.256799
+./Model/mnist.model
+epoch: 102 loss_D: 1.1122661  loss_real 0.4107458  loss_fake 0.7015203  loss_G 1.4077896
+./Model/mnist.model
+epoch: 103 loss_D: 1.1072338  loss_real 0.35445657  loss_fake 0.7527772  loss_G 1.3752749
+./Model/mnist.model
+epoch: 104 loss_D: 1.0009744  loss_real 0.3831216  loss_fake 0.61785287  loss_G 1.4728137
+./Model/mnist.model
+epoch: 105 loss_D: 1.0928583  loss_real 0.5122918  loss_fake 0.5805665  loss_G 1.1908798
+./Model/mnist.model
+epoch: 106 loss_D: 1.0671252  loss_real 0.36567697  loss_fake 0.70144826  loss_G 1.4167147
+./Model/mnist.model
+epoch: 107 loss_D: 1.0811653  loss_real 0.34590727  loss_fake 0.735258  loss_G 1.4667959
+./Model/mnist.model
+epoch: 108 loss_D: 1.0772823  loss_real 0.31767106  loss_fake 0.75961125  loss_G 1.6264911
+./Model/mnist.model
+epoch: 109 loss_D: 1.2751966  loss_real 0.60942614  loss_fake 0.6657705  loss_G 1.0752983
+./Model/mnist.model
+epoch: 110 loss_D: 0.96944326  loss_real 0.33570695  loss_fake 0.6337363  loss_G 1.5145583
+./Model/mnist.model
+epoch: 111 loss_D: 1.048857  loss_real 0.36581331  loss_fake 0.68304366  loss_G 1.3653626
+./Model/mnist.model
+epoch: 112 loss_D: 1.12462  loss_real 0.44390455  loss_fake 0.68071544  loss_G 1.356226
+./Model/mnist.model
+epoch: 113 loss_D: 1.1105297  loss_real 0.38703796  loss_fake 0.7234917  loss_G 1.3832672
+./Model/mnist.model
+epoch: 114 loss_D: 0.9814343  loss_real 0.37719357  loss_fake 0.6042407  loss_G 1.3929615
+./Model/mnist.model
+epoch: 115 loss_D: 0.98088586  loss_real 0.4222254  loss_fake 0.55866045  loss_G 1.3209193
+./Model/mnist.model
+epoch: 116 loss_D: 0.98377913  loss_real 0.34190404  loss_fake 0.6418751  loss_G 1.4895289
+./Model/mnist.model
+epoch: 117 loss_D: 1.1125017  loss_real 0.45844448  loss_fake 0.65405726  loss_G 1.2071187
+./Model/mnist.model
+epoch: 118 loss_D: 1.0722526  loss_real 0.28965354  loss_fake 0.7825991  loss_G 1.7193185
+./Model/mnist.model
+epoch: 119 loss_D: 1.1289225  loss_real 0.33546585  loss_fake 0.79345655  loss_G 1.5139546
+./Model/mnist.model
+epoch: 120 loss_D: 1.1448233  loss_real 0.53162557  loss_fake 0.61319774  loss_G 1.164679
+./Model/mnist.model
+epoch: 121 loss_D: 0.9325397  loss_real 0.36227742  loss_fake 0.5702623  loss_G 1.394928
+./Model/mnist.model
+epoch: 122 loss_D: 1.0200667  loss_real 0.305732  loss_fake 0.7143348  loss_G 1.537097
+./Model/mnist.model
+epoch: 123 loss_D: 1.0330067  loss_real 0.450938  loss_fake 0.5820686  loss_G 1.3250171
+./Model/mnist.model
+epoch: 124 loss_D: 1.1965246  loss_real 0.4289116  loss_fake 0.767613  loss_G 1.3257797
+./Model/mnist.model
+epoch: 125 loss_D: 1.0969542  loss_real 0.42671588  loss_fake 0.6702384  loss_G 1.2553598
+./Model/mnist.model
+epoch: 126 loss_D: 1.0096376  loss_real 0.4136436  loss_fake 0.595994  loss_G 1.3765621
+./Model/mnist.model
+epoch: 127 loss_D: 0.9560709  loss_real 0.29126358  loss_fake 0.6648073  loss_G 1.6659532
+./Model/mnist.model
+epoch: 128 loss_D: 0.9944248  loss_real 0.23179767  loss_fake 0.7626271  loss_G 1.8316495
+./Model/mnist.model
+epoch: 129 loss_D: 1.0053593  loss_real 0.3902533  loss_fake 0.615106  loss_G 1.518293
+./Model/mnist.model
+epoch: 130 loss_D: 1.0265049  loss_real 0.3548811  loss_fake 0.67162377  loss_G 1.599446
+./Model/mnist.model
+epoch: 131 loss_D: 0.9897501  loss_real 0.49780443  loss_fake 0.49194565  loss_G 1.3261516
+./Model/mnist.model
+epoch: 132 loss_D: 1.046095  loss_real 0.35701033  loss_fake 0.6890847  loss_G 1.4444213
+./Model/mnist.model
+epoch: 133 loss_D: 1.033637  loss_real 0.38089526  loss_fake 0.6527418  loss_G 1.4878458
+./Model/mnist.model
+epoch: 134 loss_D: 0.98667824  loss_real 0.33097136  loss_fake 0.6557069  loss_G 1.6759243
+./Model/mnist.model
+epoch: 135 loss_D: 0.98728555  loss_real 0.3790713  loss_fake 0.60821426  loss_G 1.3506594
+./Model/mnist.model
+epoch: 136 loss_D: 0.99375135  loss_real 0.35874492  loss_fake 0.6350064  loss_G 1.4376886
+./Model/mnist.model
+epoch: 137 loss_D: 0.93946046  loss_real 0.36697334  loss_fake 0.5724871  loss_G 1.567023
+./Model/mnist.model
+epoch: 138 loss_D: 0.96577287  loss_real 0.43083817  loss_fake 0.5349347  loss_G 1.4248396
+./Model/mnist.model
+epoch: 139 loss_D: 1.0170375  loss_real 0.3490123  loss_fake 0.66802526  loss_G 1.5040784
+./Model/mnist.model
+epoch: 140 loss_D: 0.9152457  loss_real 0.36137235  loss_fake 0.55387336  loss_G 1.5294269
+./Model/mnist.model
+epoch: 141 loss_D: 1.0347527  loss_real 0.32244325  loss_fake 0.7123095  loss_G 1.588017
+./Model/mnist.model
+epoch: 142 loss_D: 1.0578932  loss_real 0.43760034  loss_fake 0.6202928  loss_G 1.4100494
+./Model/mnist.model
+epoch: 143 loss_D: 0.98467284  loss_real 0.36032897  loss_fake 0.6243439  loss_G 1.5858096
+./Model/mnist.model
+epoch: 144 loss_D: 0.83913225  loss_real 0.31522876  loss_fake 0.5239035  loss_G 1.5333822
+./Model/mnist.model
+epoch: 145 loss_D: 1.1383867  loss_real 0.4186023  loss_fake 0.7197845  loss_G 1.4556704
+./Model/mnist.model
+epoch: 146 loss_D: 0.9803094  loss_real 0.2935593  loss_fake 0.6867501  loss_G 1.7200611
+./Model/mnist.model
+epoch: 147 loss_D: 1.0795351  loss_real 0.316848  loss_fake 0.7626871  loss_G 1.66781
+./Model/mnist.model
+epoch: 148 loss_D: 0.87025654  loss_real 0.3253973  loss_fake 0.54485923  loss_G 1.5048923
+./Model/mnist.model
+epoch: 149 loss_D: 0.9096605  loss_real 0.3253848  loss_fake 0.5842757  loss_G 1.4786779
+./Model/mnist.model
+epoch: 150 loss_D: 0.997573  loss_real 0.41997874  loss_fake 0.5775943  loss_G 1.4009006
+./Model/mnist.model
+epoch: 151 loss_D: 0.92098284  loss_real 0.21832076  loss_fake 0.7026621  loss_G 2.012219
+./Model/mnist.model
+epoch: 152 loss_D: 0.9304762  loss_real 0.41074634  loss_fake 0.51972985  loss_G 1.469354
+./Model/mnist.model
+epoch: 153 loss_D: 0.9952843  loss_real 0.2581053  loss_fake 0.73717904  loss_G 1.8549336
+./Model/mnist.model
+epoch: 154 loss_D: 1.1315318  loss_real 0.34619334  loss_fake 0.7853385  loss_G 1.5451396
+./Model/mnist.model
+epoch: 155 loss_D: 1.1126482  loss_real 0.36462814  loss_fake 0.7480202  loss_G 1.662609
+./Model/mnist.model
+epoch: 156 loss_D: 0.95172083  loss_real 0.3947955  loss_fake 0.5569253  loss_G 1.4181159
+./Model/mnist.model
+epoch: 157 loss_D: 1.0559866  loss_real 0.32575572  loss_fake 0.7302309  loss_G 1.6420834
+./Model/mnist.model
+epoch: 158 loss_D: 1.0338256  loss_real 0.3918463  loss_fake 0.64197934  loss_G 1.435785
+./Model/mnist.model
+epoch: 159 loss_D: 0.97933567  loss_real 0.25092894  loss_fake 0.7284067  loss_G 1.8616352
+./Model/mnist.model
+epoch: 160 loss_D: 0.9436458  loss_real 0.2375204  loss_fake 0.7061254  loss_G 1.9302022
+./Model/mnist.model
+epoch: 161 loss_D: 0.9670157  loss_real 0.32615066  loss_fake 0.640865  loss_G 1.6706977
+./Model/mnist.model
+epoch: 162 loss_D: 1.1162074  loss_real 0.4565282  loss_fake 0.6596791  loss_G 1.4285078
+./Model/mnist.model
+epoch: 163 loss_D: 0.97439307  loss_real 0.42989743  loss_fake 0.54449564  loss_G 1.2453926
+./Model/mnist.model
+epoch: 164 loss_D: 0.9748963  loss_real 0.386428  loss_fake 0.5884683  loss_G 1.4105995
+./Model/mnist.model
+epoch: 165 loss_D: 1.1718061  loss_real 0.65552264  loss_fake 0.51628345  loss_G 0.9306961
+./Model/mnist.model
+epoch: 166 loss_D: 0.9523872  loss_real 0.30647042  loss_fake 0.64591676  loss_G 1.5266677
+./Model/mnist.model
+epoch: 167 loss_D: 1.0296968  loss_real 0.34515882  loss_fake 0.684538  loss_G 1.5386064
+./Model/mnist.model
+epoch: 168 loss_D: 1.0387485  loss_real 0.5059781  loss_fake 0.53277045  loss_G 1.3032176
+./Model/mnist.model
+epoch: 169 loss_D: 1.0447216  loss_real 0.34809345  loss_fake 0.6966281  loss_G 1.6847152
+./Model/mnist.model
+epoch: 170 loss_D: 1.018121  loss_real 0.3054853  loss_fake 0.71263564  loss_G 1.7327585
+./Model/mnist.model
+epoch: 171 loss_D: 0.9800274  loss_real 0.3933118  loss_fake 0.5867156  loss_G 1.4839474
+./Model/mnist.model
+epoch: 172 loss_D: 0.9935634  loss_real 0.25616148  loss_fake 0.7374019  loss_G 1.8634334
+./Model/mnist.model
+epoch: 173 loss_D: 1.0438001  loss_real 0.5073814  loss_fake 0.5364188  loss_G 1.2712245
+./Model/mnist.model
+epoch: 174 loss_D: 1.0302355  loss_real 0.40150934  loss_fake 0.6287262  loss_G 1.4169077
+./Model/mnist.model
+epoch: 175 loss_D: 1.0203159  loss_real 0.28975862  loss_fake 0.73055726  loss_G 1.7766632
+./Model/mnist.model
+epoch: 176 loss_D: 0.97116077  loss_real 0.26697206  loss_fake 0.7041887  loss_G 1.7877607
+./Model/mnist.model
+epoch: 177 loss_D: 0.9138536  loss_real 0.2782715  loss_fake 0.6355821  loss_G 1.7702117
+./Model/mnist.model
+epoch: 178 loss_D: 0.99729484  loss_real 0.29297942  loss_fake 0.7043154  loss_G 1.8177629
+./Model/mnist.model
+epoch: 179 loss_D: 0.7948892  loss_real 0.2654893  loss_fake 0.5293999  loss_G 1.6421399
+./Model/mnist.model
+epoch: 180 loss_D: 0.989324  loss_real 0.37484103  loss_fake 0.61448294  loss_G 1.5221301
+./Model/mnist.model
+epoch: 181 loss_D: 0.90130275  loss_real 0.26063335  loss_fake 0.6406694  loss_G 1.8562422
+./Model/mnist.model
+epoch: 182 loss_D: 1.0504583  loss_real 0.4426222  loss_fake 0.60783607  loss_G 1.3293221
+./Model/mnist.model
+epoch: 183 loss_D: 1.0939465  loss_real 0.38557285  loss_fake 0.70837355  loss_G 1.4267858
+./Model/mnist.model
+epoch: 184 loss_D: 1.0095034  loss_real 0.33810955  loss_fake 0.6713939  loss_G 1.8847805
+./Model/mnist.model
+epoch: 185 loss_D: 0.9408078  loss_real 0.25971675  loss_fake 0.68109107  loss_G 1.9408273
+./Model/mnist.model
+epoch: 186 loss_D: 1.0955011  loss_real 0.29901874  loss_fake 0.7964823  loss_G 1.6373359
+./Model/mnist.model
+epoch: 187 loss_D: 1.1175258  loss_real 0.32840055  loss_fake 0.7891253  loss_G 1.7851884
+./Model/mnist.model
+epoch: 188 loss_D: 0.8989694  loss_real 0.3082057  loss_fake 0.5907637  loss_G 1.6007304
+./Model/mnist.model
+epoch: 189 loss_D: 1.0761063  loss_real 0.38815555  loss_fake 0.68795073  loss_G 1.6477597
+./Model/mnist.model
+epoch: 190 loss_D: 1.0168757  loss_real 0.43813914  loss_fake 0.57873666  loss_G 1.5055345
+./Model/mnist.model
+epoch: 191 loss_D: 0.9563182  loss_real 0.27811378  loss_fake 0.6782044  loss_G 1.7788668
+./Model/mnist.model
+epoch: 192 loss_D: 0.8876041  loss_real 0.25593662  loss_fake 0.6316675  loss_G 1.9988098
+./Model/mnist.model
+epoch: 193 loss_D: 0.8945134  loss_real 0.3272689  loss_fake 0.5672445  loss_G 1.5683924
+./Model/mnist.model
+epoch: 194 loss_D: 1.0551256  loss_real 0.35700092  loss_fake 0.69812465  loss_G 1.6171814
+./Model/mnist.model
+epoch: 195 loss_D: 0.9526622  loss_real 0.25148985  loss_fake 0.70117235  loss_G 1.9517328
+./Model/mnist.model
+epoch: 196 loss_D: 1.1848096  loss_real 0.24442695  loss_fake 0.94038266  loss_G 1.7888013
+./Model/mnist.model
+epoch: 197 loss_D: 0.9667878  loss_real 0.4051253  loss_fake 0.56166255  loss_G 1.4483085
+./Model/mnist.model
+epoch: 198 loss_D: 0.9137247  loss_real 0.37856382  loss_fake 0.5351609  loss_G 1.6671315
+./Model/mnist.model
+epoch: 199 loss_D: 1.0054741  loss_real 0.4526679  loss_fake 0.55280626  loss_G 1.360765
+./Model/mnist.model
+epoch: 200 loss_D: 1.0781277  loss_real 0.40482262  loss_fake 0.6733051  loss_G 1.6725235
+./Model/mnist.model
+epoch: 201 loss_D: 0.9976913  loss_real 0.36557406  loss_fake 0.6321172  loss_G 1.5727205
+./Model/mnist.model
+epoch: 202 loss_D: 1.0622478  loss_real 0.4373443  loss_fake 0.62490344  loss_G 1.5706117
+./Model/mnist.model
+epoch: 203 loss_D: 0.9609433  loss_real 0.3637895  loss_fake 0.5971538  loss_G 1.6902447
+./Model/mnist.model
+epoch: 204 loss_D: 0.88565207  loss_real 0.23835501  loss_fake 0.6472971  loss_G 1.8825178
+./Model/mnist.model
+epoch: 205 loss_D: 0.88576746  loss_real 0.27374014  loss_fake 0.61202735  loss_G 1.6891003
+./Model/mnist.model
+epoch: 206 loss_D: 0.9354697  loss_real 0.3628494  loss_fake 0.5726203  loss_G 1.4668012
+./Model/mnist.model
+epoch: 207 loss_D: 0.8987857  loss_real 0.33283123  loss_fake 0.5659545  loss_G 1.8276957
+./Model/mnist.model
+epoch: 208 loss_D: 0.99948144  loss_real 0.44784898  loss_fake 0.55163246  loss_G 1.3950303
+./Model/mnist.model
+epoch: 209 loss_D: 0.99659497  loss_real 0.38243842  loss_fake 0.61415654  loss_G 1.5572268
+./Model/mnist.model
+epoch: 210 loss_D: 1.011473  loss_real 0.43422812  loss_fake 0.57724476  loss_G 1.5095167
+./Model/mnist.model
+epoch: 211 loss_D: 0.92402256  loss_real 0.40474534  loss_fake 0.5192772  loss_G 1.573151
+./Model/mnist.model
+epoch: 212 loss_D: 0.896388  loss_real 0.33966058  loss_fake 0.5567274  loss_G 1.5775844
+./Model/mnist.model
+epoch: 213 loss_D: 1.0545212  loss_real 0.39929613  loss_fake 0.65522504  loss_G 1.5788103
+./Model/mnist.model
+epoch: 214 loss_D: 0.9724183  loss_real 0.3617996  loss_fake 0.6106187  loss_G 1.5582044
+./Model/mnist.model
+epoch: 215 loss_D: 0.9114919  loss_real 0.2800219  loss_fake 0.63146996  loss_G 1.784788
+./Model/mnist.model
+epoch: 216 loss_D: 1.0081547  loss_real 0.25716045  loss_fake 0.7509943  loss_G 1.9276793
+./Model/mnist.model
+epoch: 217 loss_D: 0.94043016  loss_real 0.25920346  loss_fake 0.68122673  loss_G 1.8322144
+./Model/mnist.model
+epoch: 218 loss_D: 0.82514364  loss_real 0.26352173  loss_fake 0.5616219  loss_G 1.8807687
+./Model/mnist.model
+epoch: 219 loss_D: 1.1185739  loss_real 0.35224074  loss_fake 0.7663331  loss_G 1.6814492
+./Model/mnist.model
+epoch: 220 loss_D: 0.95360863  loss_real 0.29426655  loss_fake 0.65934205  loss_G 1.8070933
+./Model/mnist.model
+epoch: 221 loss_D: 1.0477481  loss_real 0.32596046  loss_fake 0.7217876  loss_G 1.837207
+./Model/mnist.model
+epoch: 222 loss_D: 1.0315387  loss_real 0.27181113  loss_fake 0.7597276  loss_G 1.9144595
+./Model/mnist.model
+epoch: 223 loss_D: 0.91623473  loss_real 0.23250142  loss_fake 0.6837333  loss_G 2.0515983
+./Model/mnist.model
+epoch: 224 loss_D: 0.9935095  loss_real 0.47278672  loss_fake 0.52072275  loss_G 1.3419445
+./Model/mnist.model
+epoch: 225 loss_D: 0.8659208  loss_real 0.32186517  loss_fake 0.54405564  loss_G 1.7967162
+./Model/mnist.model
+epoch: 226 loss_D: 0.89799094  loss_real 0.29703373  loss_fake 0.6009572  loss_G 1.7196531
+./Model/mnist.model
+epoch: 227 loss_D: 0.92141956  loss_real 0.32538152  loss_fake 0.59603804  loss_G 1.6522899
+./Model/mnist.model
+epoch: 228 loss_D: 0.81785405  loss_real 0.22916405  loss_fake 0.58869  loss_G 2.0331964
+./Model/mnist.model
+epoch: 229 loss_D: 0.94250846  loss_real 0.34295127  loss_fake 0.59955716  loss_G 1.6912146
+./Model/mnist.model
+epoch: 230 loss_D: 0.9542228  loss_real 0.3687466  loss_fake 0.58547616  loss_G 1.5926169
+./Model/mnist.model
+epoch: 231 loss_D: 0.8430376  loss_real 0.23940307  loss_fake 0.60363454  loss_G 1.9430566
+./Model/mnist.model
+epoch: 232 loss_D: 0.9209166  loss_real 0.30843377  loss_fake 0.61248285  loss_G 1.8768653
+./Model/mnist.model
+epoch: 233 loss_D: 0.8136335  loss_real 0.27741927  loss_fake 0.53621423  loss_G 1.7816114
+./Model/mnist.model
+epoch: 234 loss_D: 0.81474483  loss_real 0.26541975  loss_fake 0.5493251  loss_G 1.8584591
+./Model/mnist.model
+epoch: 235 loss_D: 0.990139  loss_real 0.17312577  loss_fake 0.81701326  loss_G 2.1864655
+./Model/mnist.model
+epoch: 236 loss_D: 1.0627446  loss_real 0.36098337  loss_fake 0.7017612  loss_G 1.4928238
+./Model/mnist.model
+epoch: 237 loss_D: 0.9240573  loss_real 0.51245123  loss_fake 0.41160607  loss_G 1.3520346
+./Model/mnist.model
+epoch: 238 loss_D: 0.86407393  loss_real 0.24292338  loss_fake 0.62115055  loss_G 1.8916267
+./Model/mnist.model
+epoch: 239 loss_D: 0.8465525  loss_real 0.30647877  loss_fake 0.54007375  loss_G 1.6499368
+./Model/mnist.model
+epoch: 240 loss_D: 0.9148733  loss_real 0.25324327  loss_fake 0.66163003  loss_G 1.9774137
+./Model/mnist.model
+epoch: 241 loss_D: 0.9084374  loss_real 0.40732864  loss_fake 0.50110877  loss_G 1.7585156
+./Model/mnist.model
+epoch: 242 loss_D: 0.92446923  loss_real 0.24170004  loss_fake 0.6827692  loss_G 2.0213556
+./Model/mnist.model
+epoch: 243 loss_D: 0.871166  loss_real 0.32263613  loss_fake 0.54852986  loss_G 1.7857823
+./Model/mnist.model
+epoch: 244 loss_D: 1.0280604  loss_real 0.2867512  loss_fake 0.74130917  loss_G 1.7346425
+./Model/mnist.model
+epoch: 245 loss_D: 1.0122609  loss_real 0.41442925  loss_fake 0.5978317  loss_G 1.7327145
+./Model/mnist.model
+epoch: 246 loss_D: 0.9484316  loss_real 0.38727114  loss_fake 0.56116045  loss_G 1.703264
+./Model/mnist.model
+epoch: 247 loss_D: 0.874244  loss_real 0.36480582  loss_fake 0.50943816  loss_G 1.833486
+./Model/mnist.model
+epoch: 248 loss_D: 0.9965193  loss_real 0.34864545  loss_fake 0.6478739  loss_G 1.7518898
+./Model/mnist.model
+epoch: 249 loss_D: 0.93097585  loss_real 0.3880669  loss_fake 0.54290897  loss_G 1.5461177
+./Model/mnist.model
+epoch: 250 loss_D: 1.0289884  loss_real 0.37147325  loss_fake 0.65751505  loss_G 1.7474775
+./Model/mnist.model
+epoch: 251 loss_D: 0.9195476  loss_real 0.29669267  loss_fake 0.62285495  loss_G 1.851322
+./Model/mnist.model
+epoch: 252 loss_D: 0.8381824  loss_real 0.27163082  loss_fake 0.56655157  loss_G 1.8914495
+./Model/mnist.model
+epoch: 253 loss_D: 0.7995633  loss_real 0.23888078  loss_fake 0.5606825  loss_G 1.8689363
+./Model/mnist.model
+epoch: 254 loss_D: 0.9421042  loss_real 0.22176418  loss_fake 0.7203401  loss_G 2.1511288
+./Model/mnist.model
+epoch: 255 loss_D: 1.0516647  loss_real 0.38262868  loss_fake 0.66903603  loss_G 1.5051668
+./Model/mnist.model
+epoch: 256 loss_D: 1.0192297  loss_real 0.24659052  loss_fake 0.7726391  loss_G 2.0843372
+./Model/mnist.model
+epoch: 257 loss_D: 0.8763244  loss_real 0.33287108  loss_fake 0.54345334  loss_G 1.7144763
+./Model/mnist.model
+epoch: 258 loss_D: 0.9241973  loss_real 0.36940843  loss_fake 0.5547889  loss_G 1.8572867
+./Model/mnist.model
+epoch: 259 loss_D: 0.84325063  loss_real 0.27547005  loss_fake 0.5677806  loss_G 1.8700008
+./Model/mnist.model
+epoch: 260 loss_D: 0.9469534  loss_real 0.39748225  loss_fake 0.54947114  loss_G 1.5760202
+./Model/mnist.model
+epoch: 261 loss_D: 0.96132267  loss_real 0.274712  loss_fake 0.6866107  loss_G 1.7704519
+./Model/mnist.model
+epoch: 262 loss_D: 0.87630033  loss_real 0.3469884  loss_fake 0.5293119  loss_G 1.7465671
+./Model/mnist.model
+epoch: 263 loss_D: 0.95418584  loss_real 0.3567057  loss_fake 0.5974802  loss_G 1.6715761
+./Model/mnist.model
+epoch: 264 loss_D: 0.9288343  loss_real 0.31574053  loss_fake 0.6130938  loss_G 1.7216562
+./Model/mnist.model
+epoch: 265 loss_D: 0.9870238  loss_real 0.33458006  loss_fake 0.6524437  loss_G 1.5342503
+./Model/mnist.model
+epoch: 266 loss_D: 0.9043471  loss_real 0.31651324  loss_fake 0.5878339  loss_G 1.697293
+./Model/mnist.model
+epoch: 267 loss_D: 0.85577327  loss_real 0.33696216  loss_fake 0.5188111  loss_G 1.6192552
+./Model/mnist.model
+epoch: 268 loss_D: 0.8485965  loss_real 0.2637778  loss_fake 0.5848187  loss_G 1.8009936
+./Model/mnist.model
+epoch: 269 loss_D: 0.96860516  loss_real 0.33052298  loss_fake 0.63808215  loss_G 1.7413728
+./Model/mnist.model
+epoch: 270 loss_D: 0.92601657  loss_real 0.18040207  loss_fake 0.7456145  loss_G 2.2944946
+./Model/mnist.model
+epoch: 271 loss_D: 0.925839  loss_real 0.3654399  loss_fake 0.5603991  loss_G 1.7131107
+./Model/mnist.model
+epoch: 272 loss_D: 0.6764555  loss_real 0.23211661  loss_fake 0.44433886  loss_G 2.02961
+./Model/mnist.model
+epoch: 273 loss_D: 0.7974434  loss_real 0.24211982  loss_fake 0.5553236  loss_G 1.9215909
+./Model/mnist.model
+epoch: 274 loss_D: 0.9091985  loss_real 0.34996486  loss_fake 0.55923367  loss_G 1.5617211
+./Model/mnist.model
+epoch: 275 loss_D: 1.1110388  loss_real 0.4299698  loss_fake 0.681069  loss_G 1.6090219
+./Model/mnist.model
+epoch: 276 loss_D: 0.9652529  loss_real 0.38583398  loss_fake 0.5794189  loss_G 1.8446174
+./Model/mnist.model
+epoch: 277 loss_D: 0.94422746  loss_real 0.25188816  loss_fake 0.6923393  loss_G 2.0090575
+./Model/mnist.model
+epoch: 278 loss_D: 0.82005703  loss_real 0.2471266  loss_fake 0.57293046  loss_G 2.1866586
+./Model/mnist.model
+epoch: 279 loss_D: 0.90758413  loss_real 0.25174683  loss_fake 0.6558373  loss_G 1.9832717
+./Model/mnist.model
+epoch: 280 loss_D: 0.981899  loss_real 0.26764277  loss_fake 0.7142562  loss_G 2.0452993
+./Model/mnist.model
+epoch: 281 loss_D: 0.94287133  loss_real 0.3111486  loss_fake 0.6317227  loss_G 1.757533
+./Model/mnist.model
+epoch: 282 loss_D: 0.84199893  loss_real 0.2363945  loss_fake 0.6056044  loss_G 2.0200548
+./Model/mnist.model
+epoch: 283 loss_D: 0.86696595  loss_real 0.26937675  loss_fake 0.5975892  loss_G 1.8305123
+./Model/mnist.model
+epoch: 284 loss_D: 0.8005111  loss_real 0.24368235  loss_fake 0.5568288  loss_G 1.9777853
+./Model/mnist.model
+epoch: 285 loss_D: 0.97745895  loss_real 0.37724277  loss_fake 0.60021615  loss_G 1.6858741
+./Model/mnist.model
+epoch: 286 loss_D: 0.91609436  loss_real 0.2826056  loss_fake 0.6334888  loss_G 1.9669514
+./Model/mnist.model
+epoch: 287 loss_D: 0.7896315  loss_real 0.32093057  loss_fake 0.46870095  loss_G 1.8587133
+./Model/mnist.model
+epoch: 288 loss_D: 0.8139413  loss_real 0.26021123  loss_fake 0.5537301  loss_G 1.9874518
+./Model/mnist.model
+epoch: 289 loss_D: 0.7505947  loss_real 0.22275095  loss_fake 0.5278437  loss_G 2.0419478
+./Model/mnist.model
+epoch: 290 loss_D: 0.76187295  loss_real 0.26799434  loss_fake 0.4938786  loss_G 2.0593343
+./Model/mnist.model
+epoch: 291 loss_D: 0.94522595  loss_real 0.389217  loss_fake 0.556009  loss_G 1.7691226
+./Model/mnist.model
+epoch: 292 loss_D: 0.8311546  loss_real 0.23747107  loss_fake 0.5936835  loss_G 2.1106575
+./Model/mnist.model
+epoch: 293 loss_D: 0.8506269  loss_real 0.2523449  loss_fake 0.598282  loss_G 2.02543
+./Model/mnist.model
+epoch: 294 loss_D: 0.9407327  loss_real 0.3206497  loss_fake 0.620083  loss_G 1.7060491
+./Model/mnist.model
+epoch: 295 loss_D: 0.8278627  loss_real 0.27536887  loss_fake 0.5524938  loss_G 1.7616241
+./Model/mnist.model
+epoch: 296 loss_D: 0.8919165  loss_real 0.41231346  loss_fake 0.47960302  loss_G 1.6281276
+./Model/mnist.model
+epoch: 297 loss_D: 0.96931803  loss_real 0.30851194  loss_fake 0.66080606  loss_G 1.7917409
+./Model/mnist.model
+epoch: 298 loss_D: 1.029624  loss_real 0.21567497  loss_fake 0.81394905  loss_G 2.2699544
+./Model/mnist.model
+epoch: 299 loss_D: 0.7408904  loss_real 0.22874644  loss_fake 0.51214397  loss_G 2.0354521
+./Model/mnist.model
